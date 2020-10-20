@@ -1,11 +1,4 @@
----
-title: "Codebook"
-author: "Alokik"
-date: "20/10/2020"
-output:
-  html_document:
-    df_print: paged
----
+
 ### The run_analysis.R script performs the data preparation and then followed by the 5 steps required as described in the course project’s definition.
 
 **Download the dataset**

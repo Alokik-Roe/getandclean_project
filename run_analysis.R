@@ -37,7 +37,7 @@ colnames(mergeData) <-  features1[,2]
 TidyData <- mergeData %>% select(subject, code,contains("mean"), contains("std"))
 
 ##Uses descriptive activity names to name 
-##the activities in the data set
+##activities in the data set
 TidyData[,"code"] <- activity_labels[TidyData$code, 2]
 
 
